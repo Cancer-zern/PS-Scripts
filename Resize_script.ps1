@@ -1,3 +1,5 @@
+# https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/add-update-to-winre?view=windows-11#extend-the-windows-re-partition
+
 Param (
 [Parameter(Mandatory=$false,HelpMessage="Skip confirmation")][bool]$SkipConfirmation=$false,
 [Parameter(Mandatory=$true,HelpMessage="Path to backup old WinRE partition content to")][string]$BackupFolder
